@@ -1,0 +1,2373 @@
+#hdmenu .menu .list-nav{
+	visibility: visible;
+}
+/**********************************body*****************************/
+#bd{
+	width: 100%;
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+}
+
+#bd-banner{
+	width: 100%;
+	height: 470px;
+	position: relative;
+}
+#bd-banner .center{
+	position: absolute;
+	top: 0;
+	left: 3%;
+	margin-left:-1px;
+}
+#bd-banner .big-carousel{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+#bd-banner .big-carousel .bd-carousel-ul{
+	overflow: visible;
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	height: 470px;
+}
+#bd-banner .big-carousel .bd-carousel-ul .tab-pannels{
+	display: none;
+	width: 100%;
+	height: 470px;
+	opacity: 1;
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#bd-banner .big-carousel .bd-carousel-ul .tab-pannels.tab-show1{
+	background-image: url("../img/imgshouye/Carousel-as1.jpg");
+	background-position: center 0;
+	background-repeat: no-repeat;
+}
+#bd-banner .big-carousel .bd-carousel-ul .tab-pannels.tab-show2{
+	background-image: url("../img/imgshouye/Carousel-as2.jpg");
+	background-position: center 0;
+	background-repeat: no-repeat;
+}
+#bd-banner .big-carousel .bd-carousel-ul .tab-pannels.tab-show3{
+	background-image: url("../img/imgshouye/Carousel-as3.jpg");
+	background-position: center 0;
+	background-repeat: no-repeat;
+}
+#bd-banner .big-carousel .bd-carousel-ul .tab-pannels.tab-show4{
+	background-image: url("../img/imgshouye/Carousel-as4.jpg");
+	background-position: center 0;
+	background-repeat: no-repeat;
+}
+#bd-banner .big-carousel .bd-carousel-ul .tab-pannels.tab-show5{
+	background-image: url("../img/imgshouye/Carousel-as5.jpg");
+	background-position: center 0;
+	background-repeat: no-repeat;
+}
+#bd-banner .big-carousel .bd-carousel-ul .tab-pannels .tab-content{
+	width: 1190px;
+	height: 470px;
+	margin: 0 auto;
+	position: relative;
+}
+#bd-banner .big-carousel .bd-carousel-ul .tab-pannels .tab-content a{
+	display: block;
+	width: 1190px;
+	height: 470px;
+}
+#bd-banner .big-carousel .bd-carousel-ul .tab-pannels .tab-content a img{
+	vertical-align: top;
+}
+#bd-banner .big-carousel .left,#bd-banner .big-carousel .right{
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	cursor: pointer;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	width: 30px;
+	height: 60px;
+	text-indent: -99px;
+	overflow: hidden;
+	z-index: 200;
+	background-image: url(../img/imgshouye/prevnext.png);
+	background-repeat: no-repeat;
+}
+#bd-banner .big-carousel .left{
+	left: 50%;
+	margin-left: -385px;
+	background-position: left 0;
+}
+#bd-banner .big-carousel .right{
+	right: 50%;
+	margin-right: -395px;
+	background-position: right 0;
+}
+#bd-banner .big-carousel .bd-ul{
+	position: absolute;
+	bottom: 30px;
+	left: 550px;
+}
+#bd-banner .big-carousel .bd-ul li{
+	float: left;
+	cursor: pointer;
+	width: 30px;
+	border-bottom: 8px solid #211616;
+	position: relative;
+	margin-right: 1px;
+	
+}
+#bd-banner .big-carousel .bd-ul li.active{
+	border-color: #E5004F;
+}
+
+
+/**********************************banner结束*****************************/
+.focuse-pic{
+	position: relative;
+}
+.focuse-pic .f-pic{
+	position: absolute;
+    width: 200px;
+    height: 470px;
+    top: -470px;
+    right: 0;
+}
+.focuse-pic .f-pic a,#focuse-pic .f-pic a img{
+	display: block;
+	width: 200px;
+	height: 470px;
+}
+/**********************************focuse结束*****************************/
+#bd-brand{
+	width: 100%;
+	height: 325px;
+	padding-top: 30px;
+	margin-bottom: 25px;
+}
+#bd-brand .brand-content{
+	width: 915px;
+	float: left;
+	overflow: hidden;
+}
+#bd-brand .brand-content ul .list-li{
+	float: left;
+	width: 303px;
+	height: 47px;
+	border-bottom: 5px solid #333333;
+	position: relative;
+}
+#bd-brand .brand-content ul .list-li.brand-content-active{
+	border-bottom-color: #e5004f;
+}
+
+#bd-brand .brand-content ul .list-li a{
+	display: block;
+	width: 303px;
+	height: 47px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 47px;
+	color: #000;
+}
+
+#bd-brand .brand-content ul .list-li a.last_w{
+	font-weight: bold;
+}
+#bd-brand .brand-content ul .list-li span{
+	display: none;
+	position: absolute;
+	width: 7px;
+	height: 4px;
+	left: 143px;
+	top: 43px;
+	background: url(../img/imgshouye/yt_ico.png) 0 -16px no-repeat;
+	overflow: hidden;
+}
+#bd-brand .brand-content .brand-panels0{
+	display: none;
+}
+#bd-brand .brand-content .brand-panels0 .brand-four{padding-top: 10px;}
+#bd-brand .brand-content .brand-panels0 .brand-four .border-animation{
+	border: 1px solid #eee;
+	width: 220px;
+	height: 262px;
+	float: left;
+	margin-right: 7px;
+	*display: inline;
+	position: relative;
+}
+#bd-brand .brand-content .brand-panels0 .brand-four .border-animation .border-top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+}
+#bd-brand .brand-content .brand-panels0 .brand-four .border-animation .border-bottom{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+}
+#bd-brand .brand-content .brand-panels0 .brand-four .border-animation .border-right{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+}
+#bd-brand .brand-content .brand-panels0 .brand-four .border-animation .border-left{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+}
+#bd-brand .brand-content .brand-panels0 .brand-four .border-animation.animation0{
+	margin-right: 0;
+}
+#bd-brand .brand-content .brand-panels0 .brand-four .border-animation .panels-pic{
+	width: 220px;
+	height: 260px;
+	
+}
+#bd-brand .brand-content .brand-panels0 .brand-four .border-animation .panels-pic a{
+	width: 220px;
+	height: 15px;
+}
+
+#bd-brand .brand-content .brand-panels1{
+	display: none;
+	padding-top: 10px;
+    width: 940px;
+    height: 262px;
+}
+#bd-brand .brand-content .brand-panels1 .brand-four .brand-li{
+	float: left;
+    width: 220px;
+    height: 256px;
+    margin-right: 9px;
+}
+#bd-brand .brand-content .brand-panels1 .brand-four .brand-li .border-animation{
+	border: 1px solid #eee;
+    width: 220px;
+    height: 260px;
+    float: left;
+    margin-right: 7px;
+    position: relative;
+}
+#bd-brand .brand-content .brand-panels1 .brand-four .brand-li .border-animation .border-top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+
+}
+#bd-brand .brand-content .brand-panels1 .brand-four .brand-li .border-animation .border-bottom{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+
+}
+#bd-brand .brand-content .brand-panels1 .brand-four .brand-li .border-animation .border-right{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+
+}
+#bd-brand .brand-content .brand-panels1 .brand-four .brand-li .border-animation .border-left{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+
+}
+#bd-brand .brand-content .brand-panels1 .brand-four .panels-img{
+	width: 220px;
+	height: 210px;
+}
+#bd-brand .brand-content .brand-panels1 .brand-four .panels-img a{
+	display: block;
+    width: 220px;
+    height: 210px;
+    text-align: center;
+}
+#bd-brand .brand-content .brand-panels1 .brand-four .panels-img a img{
+	vertical-align: top;
+}
+#bd-brand .brand-content .brand-panels1 .brand-four li p{
+	padding-left: 12px;
+    line-height: 20px;
+    width: 198px;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#bd-brand .brand-content .brand-panels1 .brand-four .brand-li p a{
+    line-height: 20px;
+    width: 198px;
+    height: 20px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: underline;
+    text-overflow: ellipsis;
+}
+#bd-brand .brand-content .brand-panels1 .brand-four .brand-li p .brand-st{
+	font-size: 14px;
+    color: #e5004f;
+}
+#bd-brand .brand-content .brand-panels1 .brand-four .brand-li p .brand-sp{
+    font-size: 11px;
+    color: #909090;
+    margin-left: 10px;
+}
+#bd-brand .brand-content .brand-panels2{
+	display: none;
+	padding-top: 10px;
+    width: 940px;
+    height: 262px;
+}
+#bd-brand .brand-content .brand-panels2 .brand-ph-a{
+	float: left;
+	border: 1px solid #eee;
+	margin-right: 10px;
+	position: relative;
+	z-index: 5;
+}
+#bd-brand .brand-content .brand-panels2 .brand-ph-a p{
+	display: none;
+	width: 220px;
+	height: 265px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: #ccc;
+	opacity: 0.2;
+	filter: alpha(opacity = 20);
+}
+#bd-brand .brand-right{
+	width: 270px;
+	height: 324px;
+	float: right;
+	position: relative;
+	z-index: 5;
+}
+#bd-brand .brand-right p{
+	display: none;
+	width: 270px;
+	height: 300px;
+	position: absolute;
+	top: 25px;
+	left: 0;
+	z-index: 10;
+	background: #ccc;
+	opacity: 0.2;
+	filter: alpha(opacity = 20);
+	
+}
+#bd-brand .brand-right .brand-img{
+	margin-top: 25px;
+}
+/**********************************bd-brand结束*****************************/
+#bd-counter{
+	margin-top: 36px;
+	height: 624px;
+	overflow: hidden;
+}
+#bd-counter .counter-zgtk{
+	width: 100%;
+	height: 46px;
+}
+#bd-counter .counter-zgtk a h6{
+	width: 380px;
+	height: 36px;
+	float: left;
+	text-indent: -9999em;
+	margin-bottom: 10px;
+	background: url(../img/imgshouye/floor_tk.png) no-repeat;
+}
+#bd-counter .zgtk-content{
+	border: 1px solid #eee;
+	padding: 10px;
+}
+#bd-counter .zgtk-content-left{
+	float: left;
+	width: 340px;
+	height: 555px;
+	overflow: hidden;
+}
+#bd-counter .zgtk-content .zgtk-content-right{
+	float: right;
+	width: 815px;
+	font-family: "\5fae\8f6f\96c5\9ed1";
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-nav{
+	border-bottom: 3px solid #333;
+	position: relative;
+	height: 35px;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-nav .hot-nav1{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-nav .hot-nav1 li{
+	float: left;
+	width: 102px;
+	height: 35px;
+	border-bottom: 3px solid #333;
+	text-align: center;
+	line-height: 35px;
+	color: #414141;
+	position: relative;
+	font-size: 14px;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-nav .hot-nav1 li.hot-active{
+	border-bottom: 3px solid #e70050;
+
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-nav .hot-nav1 li .li-a.last_w{
+	font-weight: bold;
+} 
+#bd-counter .zgtk-content .zgtk-content-right .hot-nav .hot-nav1 li .li-span{
+	display: none;
+	background: url(../img/imgshouye/yt_ico.png) no-repeat 0 -16px;
+	height: 4px;
+	left: 51px;
+	overflow: hidden;
+	position: absolute;
+	top: 31px;
+	width: 7px;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list{
+	height: 517px;
+	float: none;
+	overflow: hidden;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list0{
+	display: none;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list1 a{
+	margin-top: 4px;
+	margin-right: 3px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list1 a p{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: #ccc;
+	opacity: 0.2;
+	filter: alpha(opacity = 20);
+}
+
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 ul{
+	padding-top: 10px;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 a{
+	float: none;
+    text-decoration: underline;
+    color: #323232;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 ul li{
+	width: 198px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 ul li .border-top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 ul li .border-bottom{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 ul li .border-right{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 ul li .border-left{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 ul li .panels-pic{
+	width: 198px;
+    height: 200px;
+    overflow: hidden;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 ul li .panels-pic a img{
+	display: block;
+	margin: 0 auto;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 ul li .panels-text{
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 ul li .panels-text p{
+	position: relative;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 ul li .panels-text p .panels-text-price1{
+	color: #E5004F;
+}
+#bd-counter .zgtk-content .zgtk-content-right .hot-list .hot-list2 ul li .panels-text p .panels-text-price2{
+	text-decoration: line-through;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    color: #a7a7a7;
+}
+/**********************************bd-counter结束*****************************/
+#bd-activity{
+	width: 100%;
+	height: 80px;
+	margin-top: 30px;
+}
+#bd-activity a{
+	display: block;
+	min-height: 80px;
+}
+/**********************************bd-activity结束*****************************/
+#bd-luxury{
+	height: 418px;
+	margin-top: 36px;
+	overflow: hidden;
+}
+
+#bd-luxury .luxury-shmp{
+	width: 100%;
+	height: 46px;
+}
+#bd-luxury .luxury-shmp a h6{
+	width: 260px;
+	height: 36px;
+	float: left;
+	text-indent: -9999em;
+	margin-bottom: 10px;
+	background: url(../img/imgshouye/floor_all.png) no-repeat;
+	background-position: 0 0;
+}
+#bd-luxury .luxury-nav{
+	width: 228px;
+	height: 370px;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #eee;
+}
+#bd-luxury .luxury-nav .luxury-nav1{
+	width: 220px;
+	height: 172px;
+	padding: 16px 0 0 8px;
+}
+#bd-luxury .luxury-nav .luxury-nav1 li{
+	float: left;
+	width: 67px;
+	height: 32px;
+	margin: 0 5px 5px 0;
+	display: inline;
+	vertical-align: top;
+	_margin: 2px;
+	_margin-right: 0;
+	position: relative;
+}
+#bd-luxury .luxury-nav .luxury-nav1 li a{
+	display: block;
+	border: 1px solid #eee;
+	width: 65px;
+	height: 32px;
+	font-family: "\5fae\8f6f\96c5\9ed1";
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	color: #666;
+	overflow: hidden;
+	position: absolute;
+	z-index: 100;
+}
+ /*.luxury-nav .luxury-nav1 li a:hover{
+	color: #fff;
+}*/
+ .luxury-nav .luxury-nav1 li p{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background: #E5004F;
+}
+#bd-luxury .luxury-nav .luxury-nav2{
+	width: 200px;
+	height: 140px;
+	background: #f2f2f2;
+	border-top: 1px dashed #969696;
+	margin-left: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-luxury .luxury-nav .luxury-nav2 .luxury-nav2-scroll{
+	position: relative;
+	width: 160px;
+	height: 116px;
+	margin: 0 auto;
+	margin-top: 15px;
+	overflow: hidden;
+}
+#bd-luxury .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll{
+	overflow: visible;
+	position: absolute;
+	width: 640px;
+	left: 0px;
+}
+#bd-luxury .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li{
+	width: 160px;
+	height: 105px;
+	float: left;
+	display: block;
+}
+#bd-luxury .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a{
+	margin: 0 0px 5px ;
+}
+#bd-luxury .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a img{
+	width: 75px;
+	height: 50px;
+}
+#bd-luxury .luxury-nav .luxury-nav2 .luxury-nav2-pre{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	left: 5px;
+	top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+
+#bd-luxury .luxury-nav .luxury-nav2 .luxury-nav2-next{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	background-position: -28px center;
+    left: 180px;
+    top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+#bd-luxury .luxury-cal{
+	width: 390px;
+	height: 370px;
+	border: 1px solid #eee;
+	float: left;
+	overflow: hidden;
+}
+#bd-luxury .luxury-cal .luxury-cal-slide{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-luxury .luxury-cal .luxury-cal-slide .luxury-slide-scroll{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-luxury .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext{
+	overflow: visible;
+	position: absolute;
+	width: 780px;
+	left: 0px;
+}
+#bd-luxury .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext a{
+	display: block;
+	float: left;
+}
+#bd-luxury .luxury-cal .luxury-cal-slide .luxury-slide-ul{
+	position: absolute;
+	bottom: 16px;
+	left: 182px;
+	height: 13px;
+	z-index: 500;
+}
+#bd-luxury .luxury-cal .luxury-cal-slide .luxury-slide-ul li{
+	float: left;
+	width: 13px;
+	height: 13px;
+	margin-right: 5px;
+	background: url(../img/imgshouye/trriger.png) no-repeat;
+	cursor: pointer;
+}
+#bd-luxury .luxury-cal .luxury-cal-slide .luxury-slide-ul li.luxury-slide-ul-active{
+	background-position: 0 -13px;
+}
+#bd-luxury .luxury-cal .luxury-cal-slide .luxury-slide-left{
+	position: absolute;
+	top: 155px;
+	width: 30px;
+	height: 60px;
+	left: -30px;
+	text-indent: -99px;
+	overflow: hidden;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index: 500;
+	background: url(../img/imgshouye/prevnext.png) no-repeat;
+	background-position:left 0 ;
+} 
+#bd-luxury .luxury-cal .luxury-cal-slide .luxury-slide-right{
+	position: absolute;
+	top: 155px;
+	width: 30px;
+	height: 60px;
+	right: -30px;
+	text-indent: -99px;
+	overflow: hidden;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index: 500;
+	background: url(../img/imgshouye/prevnext.png) no-repeat;
+	background-position:right 0 ;
+} 
+.luxury-banner{
+	float: right;
+	width: 552px;
+	height: 372px;
+	overflow: hidden;
+}
+.luxury-banner .luxury-banner-main{
+	width: 560px;
+	height: 380px;
+}
+.luxury-banner .luxury-banner-main .luxury-banner-div{
+	float: left;
+	width: 278px;
+	height: 188px;
+}
+.luxury-banner .luxury-banner-main .luxury-banner-div .border-animation{
+	position: relative;
+	width: 272px;
+	height: 182px;
+	float: left;
+	border: 1px solid #eee;
+	*display: inline;
+}
+
+.luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .border-top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+}
+.luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .border-bottom{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+}
+.luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .border-right{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+}
+.luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .border-left{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1px;
+	background:#666;
+	transition: all 0.5s ease-out;
+}
+.luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .img-wrap a{
+	display: block;
+	width: 270px;
+	height: 180px;
+	
+}
+/**********************************bd-luxury 结束*****************************/
+#bd-trend{
+	height: 418px;
+	margin-top: 36px;
+	overflow: hidden;
+}
+
+#bd-trend .luxury-shmp{
+	width: 100%;
+	height: 46px;
+}
+#bd-trend .luxury-shmp a h6{
+	width: 260px;
+	height: 36px;
+	float: left;
+	text-indent: -9999em;
+	margin-bottom: 10px;
+	background: url(../img/imgshouye/floor_all.png) no-repeat;
+	background-position: 0 -47px;
+}
+#bd-trend .luxury-nav{
+	width: 228px;
+	height: 370px;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #eee;
+}
+#bd-trend .luxury-nav .luxury-nav1{
+	width: 220px;
+	height: 172px;
+	padding: 16px 0 0 8px;
+}
+#bd-trend .luxury-nav .luxury-nav1 li{
+	float: left;
+	width: 67px;
+	height: 32px;
+	margin: 0 5px 5px 0;
+	display: inline;
+	vertical-align: top;
+	_margin: 2px;
+	_margin-right: 0;
+	position: relative;
+}
+#bd-trend .luxury-nav .luxury-nav1 li a{
+	display: block;
+	border: 1px solid #eee;
+	width: 65px;
+	height: 32px;
+	font-family: "\5fae\8f6f\96c5\9ed1";
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	color: #666;
+	overflow: hidden;
+	position: absolute;
+	z-index: 100;
+}
+#bd-trend .luxury-nav .luxury-nav2{
+	width: 200px;
+	height: 140px;
+	background: #f2f2f2;
+	border-top: 1px dashed #969696;
+	margin-left: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-trend .luxury-nav .luxury-nav2 .luxury-nav2-scroll{
+	position: relative;
+	width: 160px;
+	height: 116px;
+	margin: 0 auto;
+	margin-top: 15px;
+	overflow: hidden;
+}
+#bd-trend .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll{
+	overflow: visible;
+	position: absolute;
+	width: 640px;
+	left: 0px;
+}
+#bd-trend .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li{
+	width: 160px;
+	height: 105px;
+	float: left;
+	display: block;
+}
+#bd-trend .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a{
+	margin: 0 0px 5px;
+}
+#bd-trend .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a img{
+	width: 75px;
+	height: 50px;
+}
+#bd-trend .luxury-nav .luxury-nav2 .luxury-nav2-pre{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	left: 5px;
+	top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+
+#bd-trend .luxury-nav .luxury-nav2 .luxury-nav2-next{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	background-position: -28px center;
+    left: 180px;
+    top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+#bd-trend .luxury-cal{
+	width: 390px;
+	height: 370px;
+	border: 1px solid #eee;
+	float: left;
+	overflow: hidden;
+}
+#bd-trend .luxury-cal .luxury-cal-slide{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-trend .luxury-cal .luxury-cal-slide .luxury-slide-scroll{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-trend .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext{
+	overflow: visible;
+	position: absolute;
+	width: 780px;
+	left: 0px;
+}
+#bd-trend .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext a{
+	display: block;
+	float: left;
+}
+
+#bd-trend .luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .img-wrap a{
+	width: 270px;
+	height: 180px;
+	display: block;
+}
+/**************************bd-boutique*****************************/
+#bd-boutique{
+	height: 418px;
+	margin-top: 36px;
+	overflow: hidden;
+}
+
+#bd-boutique .luxury-shmp{
+	width: 100%;
+	height: 46px;
+}
+#bd-boutique .luxury-shmp a h6{
+	width: 260px;
+	height: 36px;
+	float: left;
+	text-indent: -9999em;
+	margin-bottom: 10px;
+	background: url(../img/imgshouye/floor_all.png) no-repeat;
+	background-position: 0 -93px;
+}
+#bd-boutique .luxury-nav{
+	width: 228px;
+	height: 370px;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #eee;
+}
+#bd-boutique .luxury-nav .luxury-nav1{
+	width: 220px;
+	height: 172px;
+	padding: 16px 0 0 8px;
+}
+#bd-boutique .luxury-nav .luxury-nav1 li{
+	float: left;
+	width: 67px;
+	height: 32px;
+	margin: 0 5px 5px 0;
+	display: inline;
+	vertical-align: top;
+	_margin: 2px;
+	_margin-right: 0;
+	position: relative;
+}
+#bd-boutique .luxury-nav .luxury-nav1 li a{
+	display: block;
+	border: 1px solid #eee;
+	width: 65px;
+	height: 32px;
+	font-family: "\5fae\8f6f\96c5\9ed1";
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	color: #666;
+	overflow: hidden;
+	position: absolute;
+	z-index: 100;
+}
+#bd-boutique .luxury-nav .luxury-nav2{
+	width: 200px;
+	height: 140px;
+	background: #f2f2f2;
+	border-top: 1px dashed #969696;
+	margin-left: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-boutique .luxury-nav .luxury-nav2 .luxury-nav2-scroll{
+	position: relative;
+	width: 160px;
+	height: 116px;
+	margin: 0 auto;
+	margin-top: 15px;
+	overflow: hidden;
+}
+#bd-boutique .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll{
+	overflow: visible;
+	position: absolute;
+	width: 640px;
+	left: 0px;
+}
+#bd-boutique .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li{
+	width: 160px;
+	height: 105px;
+	float: left;
+	display: block;
+}
+#bd-boutique .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a{
+	margin: 0 0px 5px;
+}
+#bd-boutique .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a img{
+	width: 75px;
+	height: 50px;
+}
+#bd-boutique .luxury-nav .luxury-nav2 .luxury-nav2-pre{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	left: 5px;
+	top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+
+#bd-boutique .luxury-nav .luxury-nav2 .luxury-nav2-next{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	background-position: -28px center;
+    left: 180px;
+    top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+#bd-boutique .luxury-cal{
+	width: 390px;
+	height: 370px;
+	border: 1px solid #eee;
+	float: left;
+	overflow: hidden;
+}
+#bd-boutique .luxury-cal .luxury-cal-slide{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-boutique .luxury-cal .luxury-cal-slide .luxury-slide-scroll{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-boutique .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext{
+	overflow: visible;
+	position: absolute;
+	width: 780px;
+	left: 0px;
+}
+#bd-boutique .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext a{
+	display: block;
+	float: left;
+}
+
+#bd-boutique .luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .img-wrap a{
+	width: 270px;
+	height: 180px;
+	display: block;
+}
+/**************************bd-footwear*****************************/
+#bd-footwear{
+	height: 418px;
+	margin-top: 36px;
+	overflow: hidden;
+}
+
+#bd-footwear .luxury-shmp{
+	width: 100%;
+	height: 46px;
+}
+#bd-footwear .luxury-shmp a h6{
+	width: 260px;
+	height: 36px;
+	float: left;
+	text-indent: -9999em;
+	margin-bottom: 10px;
+	background: url(../img/imgshouye/floor_all.png) no-repeat;
+	background-position: 0 -140px;
+}
+#bd-footwear .luxury-nav{
+	width: 228px;
+	height: 370px;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #eee;
+}
+#bd-footwear .luxury-nav .luxury-nav1{
+	width: 220px;
+	height: 172px;
+	padding: 16px 0 0 8px;
+}
+#bd-footwear .luxury-nav .luxury-nav1 li{
+	float: left;
+	width: 67px;
+	height: 32px;
+	margin: 0 5px 5px 0;
+	display: inline;
+	vertical-align: top;
+	_margin: 2px;
+	_margin-right: 0;
+	position: relative;
+}
+#bd-footwear .luxury-nav .luxury-nav1 li a{
+	display: block;
+	border: 1px solid #eee;
+	width: 65px;
+	height: 32px;
+	font-family: "\5fae\8f6f\96c5\9ed1";
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	color: #666;
+	overflow: hidden;
+	position: absolute;
+	z-index: 100;
+}
+#bd-footwear .luxury-nav .luxury-nav2{
+	width: 200px;
+	height: 140px;
+	background: #f2f2f2;
+	border-top: 1px dashed #969696;
+	margin-left: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-footwear .luxury-nav .luxury-nav2 .luxury-nav2-scroll{
+	position: relative;
+	width: 160px;
+	height: 116px;
+	margin: 0 auto;
+	margin-top: 15px;
+	overflow: hidden;
+}
+#bd-footwear .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll{
+	overflow: visible;
+	position: absolute;
+	width: 640px;
+	left: 0px;
+}
+#bd-footwear .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li{
+	width: 160px;
+	height: 105px;
+	float: left;
+	display: block;
+}
+#bd-footwear .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a{
+	margin: 0 0px 5px;
+}
+#bd-footwear .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a img{
+	width: 75px;
+	height: 50px;
+}
+#bd-footwear .luxury-nav .luxury-nav2 .luxury-nav2-pre{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	left: 5px;
+	top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+
+#bd-footwear .luxury-nav .luxury-nav2 .luxury-nav2-next{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	background-position: -28px center;
+    left: 180px;
+    top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+#bd-footwear .luxury-cal{
+	width: 390px;
+	height: 370px;
+	border: 1px solid #eee;
+	float: left;
+	overflow: hidden;
+}
+#bd-footwear .luxury-cal .luxury-cal-slide{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-footwear .luxury-cal .luxury-cal-slide .luxury-slide-scroll{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-footwear .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext{
+	overflow: visible;
+	position: absolute;
+	width: 780px;
+	left: 0px;
+}
+#bd-footwear .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext a{
+	display: block;
+	float: left;
+}
+#bd-footwear .luxury-cal .luxury-cal-slide .luxury-slide-ul{
+	position: absolute;
+	bottom: 16px;
+	left: 182px;
+	height: 13px;
+	z-index: 500;
+}
+#bd-footwear .luxury-cal .luxury-cal-slide .luxury-slide-ul li{
+	float: left;
+	width: 13px;
+	height: 13px;
+	margin-right: 5px;
+	background: url(../img/imgshouye/trriger.png) no-repeat;
+	cursor: pointer;
+}
+#bd-footwear .luxury-cal .luxury-cal-slide .luxury-slide-ul li.luxury-slide-ul-active{
+	background-position: 0 -13px;
+}
+#bd-footwear .luxury-cal .luxury-cal-slide .luxury-slide-left{
+	position: absolute;
+	top: 155px;
+	width: 30px;
+	height: 60px;
+	left: -30px;
+	text-indent: -99px;
+	overflow: hidden;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index: 500;
+	background: url(../img/imgshouye/prevnext.png) no-repeat;
+	background-position:left 0 ;
+} 
+#bd-footwear .luxury-cal .luxury-cal-slide .luxury-slide-right{
+	position: absolute;
+	top: 155px;
+	width: 30px;
+	height: 60px;
+	right: -30px;
+	text-indent: -99px;
+	overflow: hidden;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index: 500;
+	background: url(../img/imgshouye/prevnext.png) no-repeat;
+	background-position:right 0 ;
+} 
+#bd-footwear .luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .img-wrap a{
+	width: 270px;
+	height: 180px;
+	display: block;
+}
+/**********************************bd-bags*****************************/
+#bd-bags{
+	height: 418px;
+	margin-top: 36px;
+	overflow: hidden;
+}
+
+#bd-bags .luxury-shmp{
+	width: 100%;
+	height: 46px;
+}
+#bd-bags .luxury-shmp a h6{
+	width: 260px;
+	height: 36px;
+	float: left;
+	text-indent: -9999em;
+	margin-bottom: 10px;
+	background: url(../img/imgshouye/floor_all.png) no-repeat;
+	background-position: 0 -185px;
+}
+#bd-bags .luxury-nav{
+	width: 228px;
+	height: 370px;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #eee;
+}
+#bd-bags .luxury-nav .luxury-nav1{
+	width: 220px;
+	height: 172px;
+	padding: 16px 0 0 8px;
+}
+#bd-bags .luxury-nav .luxury-nav1 li{
+	float: left;
+	width: 67px;
+	height: 32px;
+	margin: 0 5px 5px 0;
+	display: inline;
+	vertical-align: top;
+	_margin: 2px;
+	_margin-right: 0;
+	position: relative;
+}
+#bd-bags .luxury-nav .luxury-nav1 li a{
+	display: block;
+	border: 1px solid #eee;
+	width: 65px;
+	height: 32px;
+	font-family: "\5fae\8f6f\96c5\9ed1";
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	color: #666;
+	overflow: hidden;
+	position: absolute;
+	z-index: 100;
+}
+#bd-bags .luxury-nav .luxury-nav2{
+	width: 200px;
+	height: 140px;
+	background: #f2f2f2;
+	border-top: 1px dashed #969696;
+	margin-left: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-bags .luxury-nav .luxury-nav2 .luxury-nav2-scroll{
+	position: relative;
+	width: 160px;
+	height: 116px;
+	margin: 0 auto;
+	margin-top: 15px;
+	overflow: hidden;
+}
+#bd-bags .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll{
+	overflow: visible;
+	position: absolute;
+	width: 640px;
+	left: 0px;
+}
+#bd-bags .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li{
+	width: 160px;
+	height: 105px;
+	float: left;
+	display: block;
+}
+#bd-bags .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a{
+	margin: 0 0px 5px;
+}
+#bd-bags .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a img{
+	width: 75px;
+	height: 50px;
+}
+#bd-bags .luxury-nav .luxury-nav2 .luxury-nav2-pre{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	left: 5px;
+	top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+
+#bd-bags .luxury-nav .luxury-nav2 .luxury-nav2-next{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	background-position: -28px center;
+    left: 180px;
+    top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+#bd-bags .luxury-cal{
+	width: 390px;
+	height: 370px;
+	border: 1px solid #eee;
+	float: left;
+	overflow: hidden;
+}
+#bd-bags .luxury-cal .luxury-cal-slide{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-bags .luxury-cal .luxury-cal-slide .luxury-slide-scroll{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-bags .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext{
+	overflow: visible;
+	position: absolute;
+	width: 780px;
+	left: 0px;
+}
+#bd-bags .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext a{
+	display: block;
+	float: left;
+}
+#bd-bags .luxury-cal .luxury-cal-slide .luxury-slide-ul{
+	position: absolute;
+	bottom: 16px;
+	left: 182px;
+	height: 13px;
+	z-index: 500;
+}
+#bd-bags .luxury-cal .luxury-cal-slide .luxury-slide-ul li{
+	float: left;
+	width: 13px;
+	height: 13px;
+	margin-right: 5px;
+	background: url(../img/imgshouye/trriger.png) no-repeat;
+	cursor: pointer;
+}
+#bd-bags .luxury-cal .luxury-cal-slide .luxury-slide-ul li.luxury-slide-ul-active{
+	background-position: 0 -13px;
+}
+#bd-bags .luxury-cal .luxury-cal-slide .luxury-slide-left{
+	position: absolute;
+	top: 155px;
+	width: 30px;
+	height: 60px;
+	left: -30px;
+	text-indent: -99px;
+	overflow: hidden;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index: 500;
+	background: url(../img/imgshouye/prevnext.png) no-repeat;
+	background-position:left 0 ;
+} 
+#bd-bags .luxury-cal .luxury-cal-slide .luxury-slide-right{
+	position: absolute;
+	top: 155px;
+	width: 30px;
+	height: 60px;
+	right: -30px;
+	text-indent: -99px;
+	overflow: hidden;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index: 500;
+	background: url(../img/imgshouye/prevnext.png) no-repeat;
+	background-position:right 0 ;
+} 
+
+#bd-bags .luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .img-wrap a{
+	width: 270px;
+	height: 180px;
+	display: block;
+}
+/**********************************bd-makeup*****************************/
+#bd-makeup{
+	height: 418px;
+	margin-top: 36px;
+	overflow: hidden;
+}
+
+#bd-makeup .luxury-shmp{
+	width: 100%;
+	height: 46px;
+}
+#bd-makeup .luxury-shmp a h6{
+	width: 260px;
+	height: 36px;
+	float: left;
+	text-indent: -9999em;
+	margin-bottom: 10px;
+	background: url(../img/imgshouye/floor_all.png) no-repeat;
+	background-position: 0 -232px;
+}
+#bd-makeup .luxury-nav{
+	width: 228px;
+	height: 370px;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #eee;
+}
+#bd-makeup .luxury-nav .luxury-nav1{
+	width: 220px;
+	height: 172px;
+	padding: 16px 0 0 8px;
+}
+#bd-makeup .luxury-nav .luxury-nav1 li{
+	float: left;
+	width: 67px;
+	height: 32px;
+	margin: 0 5px 5px 0;
+	display: inline;
+	vertical-align: top;
+	_margin: 2px;
+	_margin-right: 0;
+	position: relative;
+}
+#bd-makeup .luxury-nav .luxury-nav1 li a{
+	display: block;
+	border: 1px solid #eee;
+	width: 65px;
+	height: 32px;
+	font-family: "\5fae\8f6f\96c5\9ed1";
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	color: #666;
+	overflow: hidden;
+	position: absolute;
+	z-index: 100;
+}
+#bd-makeup .luxury-nav .luxury-nav2{
+	width: 200px;
+	height: 140px;
+	background: #f2f2f2;
+	border-top: 1px dashed #969696;
+	margin-left: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-makeup .luxury-nav .luxury-nav2 .luxury-nav2-scroll{
+	position: relative;
+	width: 160px;
+	height: 116px;
+	margin: 0 auto;
+	margin-top: 15px;
+	overflow: hidden;
+}
+#bd-makeup .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll{
+	overflow: visible;
+	position: absolute;
+	width: 640px;
+	left: 0px;
+}
+#bd-makeup .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li{
+	width: 160px;
+	height: 105px;
+	float: left;
+	display: block;
+}
+#bd-makeup .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a{
+	margin: 0 0px 5px;
+}
+#bd-makeup .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a img{
+	width: 75px;
+	height: 50px;
+}
+#bd-makeup .luxury-nav .luxury-nav2 .luxury-nav2-pre{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	left: 5px;
+	top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+
+#bd-makeup .luxury-nav .luxury-nav2 .luxury-nav2-next{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	background-position: -28px center;
+    left: 180px;
+    top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+#bd-makeup .luxury-cal{
+	width: 390px;
+	height: 370px;
+	border: 1px solid #eee;
+	float: left;
+	overflow: hidden;
+}
+#bd-makeup .luxury-cal .luxury-cal-slide{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-makeup .luxury-cal .luxury-cal-slide .luxury-slide-scroll{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-makeup .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext{
+	overflow: visible;
+	position: absolute;
+	width: 780px;
+	left: 0px;
+}
+#bd-makeup .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext a{
+	display: block;
+	float: left;
+}
+
+#bd-makeup  .luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .img-wrap a{
+	width: 270px;
+	height: 180px;
+	display: block;
+}
+/**********************************bd-outdoor*****************************/
+#bd-outdoor{
+	height: 418px;
+	margin-top: 36px;
+	overflow: hidden;
+}
+
+#bd-outdoor .luxury-shmp{
+	width: 100%;
+	height: 46px;
+}
+#bd-outdoor .luxury-shmp a h6{
+	width: 260px;
+	height: 36px;
+	float: left;
+	text-indent: -9999em;
+	margin-bottom: 10px;
+	background: url(../img/imgshouye/floor_all.png) no-repeat;
+	background-position: 0 -278px;
+}
+#bd-outdoor .luxury-nav{
+	width: 228px;
+	height: 370px;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #eee;
+}
+#bd-outdoor .luxury-nav .luxury-nav1{
+	width: 220px;
+	height: 172px;
+	padding: 16px 0 0 8px;
+}
+#bd-outdoor .luxury-nav .luxury-nav1 li{
+	float: left;
+	width: 67px;
+	height: 32px;
+	margin: 0 5px 5px 0;
+	display: inline;
+	vertical-align: top;
+	_margin: 2px;
+	_margin-right: 0;
+	position: relative;
+}
+#bd-outdoor .luxury-nav .luxury-nav1 li a{
+	display: block;
+	border: 1px solid #eee;
+	width: 65px;
+	height: 32px;
+	font-family: "\5fae\8f6f\96c5\9ed1";
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	color: #666;
+	overflow: hidden;
+	position: absolute;
+	z-index: 100;
+}
+#bd-outdoor .luxury-nav .luxury-nav2{
+	width: 200px;
+	height: 140px;
+	background: #f2f2f2;
+	border-top: 1px dashed #969696;
+	margin-left: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-outdoor .luxury-nav .luxury-nav2 .luxury-nav2-scroll{
+	position: relative;
+	width: 160px;
+	height: 116px;
+	margin: 0 auto;
+	margin-top: 15px;
+	overflow: hidden;
+}
+#bd-outdoor .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll{
+	overflow: visible;
+	position: absolute;
+	width: 640px;
+	left: 0px;
+}
+#bd-outdoor .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li{
+	width: 160px;
+	height: 105px;
+	float: left;
+	display: block;
+}
+#bd-outdoor .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a{
+	margin: 0 0px 5px ;
+}
+#bd-outdoor .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a img{
+	width: 75px;
+	height: 50px;
+}
+#bd-outdoor .luxury-nav .luxury-nav2 .luxury-nav2-pre{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	left: 5px;
+	top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+
+#bd-outdoor .luxury-nav .luxury-nav2 .luxury-nav2-next{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	background-position: -28px center;
+    left: 180px;
+    top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+#bd-outdoor .luxury-cal{
+	width: 390px;
+	height: 370px;
+	border: 1px solid #eee;
+	float: left;
+	overflow: hidden;
+}
+#bd-outdoor .luxury-cal .luxury-cal-slide{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-outdoor .luxury-cal .luxury-cal-slide .luxury-slide-scroll{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-outdoor .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext{
+	overflow: visible;
+	position: absolute;
+	width: 780px;
+	left: 0px;
+}
+#bd-outdoor .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext a{
+	display: block;
+	float: left;
+}
+#bd-outdoor .luxury-cal .luxury-cal-slide .luxury-slide-ul{
+	position: absolute;
+	bottom: 16px;
+	left: 182px;
+	height: 13px;
+	z-index: 500;
+}
+#bd-outdoor .luxury-cal .luxury-cal-slide .luxury-slide-ul li{
+	float: left;
+	width: 13px;
+	height: 13px;
+	margin-right: 5px;
+	background: url(../img/imgshouye/trriger.png) no-repeat;
+	cursor: pointer;
+}
+#bd-outdoor .luxury-cal .luxury-cal-slide .luxury-slide-ul li.luxury-slide-ul-active{
+	background-position: 0 -13px;
+}
+#bd-outdoor .luxury-cal .luxury-cal-slide .luxury-slide-left{
+	position: absolute;
+	top: 155px;
+	width: 30px;
+	height: 60px;
+	left: -30px;
+	text-indent: -99px;
+	overflow: hidden;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index: 500;
+	background: url(../img/imgshouye/prevnext.png) no-repeat;
+	background-position:left 0 ;
+} 
+#bd-outdoor .luxury-cal .luxury-cal-slide .luxury-slide-right{
+	position: absolute;
+	top: 155px;
+	width: 30px;
+	height: 60px;
+	right: -30px;
+	text-indent: -99px;
+	overflow: hidden;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index: 500;
+	background: url(../img/imgshouye/prevnext.png) no-repeat;
+	background-position:right 0 ;
+} 
+
+#bd-outdoor .luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .img-wrap a{
+	width: 270px;
+	height: 180px;
+	display: block;
+}
+/**********************************bd-underwear*****************************/
+#bd-underwear{
+	height: 418px;
+	margin-top: 36px;
+	overflow: hidden;
+}
+
+#bd-underwear .luxury-shmp{
+	width: 100%;
+	height: 46px;
+}
+#bd-underwear .luxury-shmp a h6{
+	width: 260px;
+	height: 36px;
+	float: left;
+	text-indent: -9999em;
+	margin-bottom: 10px;
+	background: url(../img/imgshouye/floor_all.png) no-repeat;
+	background-position: 0 -322px;
+}
+#bd-underwear .luxury-nav{
+	width: 228px;
+	height: 370px;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #eee;
+}
+#bd-underwear .luxury-nav .luxury-nav1{
+	width: 220px;
+	height: 172px;
+	padding: 16px 0 0 8px;
+}
+#bd-underwear .luxury-nav .luxury-nav1 li{
+	float: left;
+	width: 67px;
+	height: 32px;
+	margin: 0 5px 5px 0;
+	display: inline;
+	vertical-align: top;
+	_margin: 2px;
+	_margin-right: 0;
+	position: relative;
+}
+#bd-underwear .luxury-nav .luxury-nav1 li a{
+	display: block;
+	border: 1px solid #eee;
+	width: 65px;
+	height: 32px;
+	font-family: "\5fae\8f6f\96c5\9ed1";
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	color: #666;
+	overflow: hidden;
+	position: absolute;
+	z-index: 100;
+}
+#bd-underwear .luxury-nav .luxury-nav2{
+	width: 200px;
+	height: 140px;
+	background: #f2f2f2;
+	border-top: 1px dashed #969696;
+	margin-left: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-underwear .luxury-nav .luxury-nav2 .luxury-nav2-scroll{
+	position: relative;
+	width: 160px;
+	height: 116px;
+	margin: 0 auto;
+	margin-top: 15px;
+	overflow: hidden;
+}
+#bd-underwear .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll{
+	overflow: visible;
+	position: absolute;
+	width: 640px;
+	left: 0px;
+}
+#bd-underwear .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li{
+	width: 160px;
+	height: 105px;
+	float: left;
+	display: block;
+}
+#bd-underwear .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a{
+	margin: 0 0px 5px;
+}
+#bd-underwear .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a img{
+	width: 75px;
+	height: 50px;
+}
+#bd-underwear .luxury-nav .luxury-nav2 .luxury-nav2-pre{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	left: 5px;
+	top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+
+#bd-underwear .luxury-nav .luxury-nav2 .luxury-nav2-next{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	background-position: -28px center;
+    left: 180px;
+    top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+#bd-underwear .luxury-cal{
+	width: 390px;
+	height: 370px;
+	border: 1px solid #eee;
+	float: left;
+	overflow: hidden;
+}
+#bd-underwear .luxury-cal .luxury-cal-slide{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-underwear .luxury-cal .luxury-cal-slide .luxury-slide-scroll{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-underwear .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext{
+	overflow: visible;
+	position: absolute;
+	width: 780px;
+	left: 0px;
+}
+#bd-underwear .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext a{
+	display: block;
+	float: left;
+}
+#bd-underwear .luxury-cal .luxury-cal-slide .luxury-slide-ul{
+	position: absolute;
+	bottom: 16px;
+	left: 182px;
+	height: 13px;
+	z-index: 500;
+}
+#bd-underwear .luxury-cal .luxury-cal-slide .luxury-slide-ul li{
+	float: left;
+	width: 13px;
+	height: 13px;
+	margin-right: 5px;
+	background: url(../img/imgshouye/trriger.png) no-repeat;
+	cursor: pointer;
+}
+#bd-underwear .luxury-cal .luxury-cal-slide .luxury-slide-ul li.luxury-slide-ul-active{
+	background-position: 0 -13px;
+}
+#bd-underwear .luxury-cal .luxury-cal-slide .luxury-slide-left{
+	position: absolute;
+	top: 155px;
+	width: 30px;
+	height: 60px;
+	left: -30px;
+	text-indent: -99px;
+	overflow: hidden;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index: 500;
+	background: url(../img/imgshouye/prevnext.png) no-repeat;
+	background-position:left 0 ;
+} 
+#bd-underwear .luxury-cal .luxury-cal-slide .luxury-slide-right{
+	position: absolute;
+	top: 155px;
+	width: 30px;
+	height: 60px;
+	right: -30px;
+	text-indent: -99px;
+	overflow: hidden;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index: 500;
+	background: url(../img/imgshouye/prevnext.png) no-repeat;
+	background-position:right 0 ;
+} 
+
+#bd-underwear .luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .img-wrap a{
+	width: 270px;
+	height: 180px;
+	display: block;
+}
+/**********************************bd-sweet*****************************/
+#bd-sweet{
+	height: 418px;
+	margin-top: 36px;
+	overflow: hidden;
+}
+
+#bd-sweet .luxury-shmp{
+	width: 100%;
+	height: 46px;
+}
+#bd-sweet .luxury-shmp a h6{
+	width: 260px;
+	height: 36px;
+	float: left;
+	text-indent: -9999em;
+	margin-bottom: 10px;
+	background: url(../img/imgshouye/floor_all.png) no-repeat;
+	background-position: 0 -368px;
+}
+#bd-sweet .luxury-nav{
+	width: 228px;
+	height: 370px;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #eee;
+}
+#bd-sweet .luxury-nav .luxury-nav1{
+	width: 220px;
+	height: 172px;
+	padding: 16px 0 0 8px;
+}
+#bd-sweet .luxury-nav .luxury-nav1 li{
+	float: left;
+	width: 67px;
+	height: 32px;
+	margin: 0 5px 5px 0;
+	display: inline;
+	vertical-align: top;
+	_margin: 2px;
+	_margin-right: 0;
+	position: relative
+}
+#bd-sweet .luxury-nav .luxury-nav1 li a{
+	display: block;
+	border: 1px solid #eee;
+	width: 65px;
+	height: 32px;
+	font-family: "\5fae\8f6f\96c5\9ed1";
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	color: #666;
+	overflow: hidden;
+	position: absolute;
+	z-index: 100;
+}
+#bd-sweet .luxury-nav .luxury-nav2{
+	width: 200px;
+	height: 140px;
+	background: #f2f2f2;
+	border-top: 1px dashed #969696;
+	margin-left: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-sweet .luxury-nav .luxury-nav2 .luxury-nav2-scroll{
+	position: relative;
+	width: 160px;
+	height: 116px;
+	margin: 0 auto;
+	margin-top: 15px;
+	overflow: hidden;
+}
+#bd-sweet .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll{
+	overflow: visible;
+	position: absolute;
+	width: 640px;
+	left: 0px;
+}
+#bd-sweet .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li{
+	width: 160px;
+	height: 105px;
+	float: left;
+	display: block;
+}
+#bd-sweet .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a{
+	margin: 0 0px 5px;
+}
+#bd-sweet .luxury-nav .luxury-nav2 .luxury-nav2-scroll .luxury-scroll li a img{
+	width: 75px;
+	height: 50px;
+}
+#bd-sweet .luxury-nav .luxury-nav2 .luxury-nav2-pre{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	left: 5px;
+	top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+
+#bd-sweet .luxury-nav .luxury-nav2 .luxury-nav2-next{
+	position: absolute;
+	background: url(../img/imgshouye/yt_ico_1.png) no-repeat 0 center;
+	width: 14px;
+	height: 139px;
+	background-position: -28px center;
+    left: 180px;
+    top: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+	outline: none;
+}
+#bd-sweet .luxury-cal{
+	width: 390px;
+	height: 370px;
+	border: 1px solid #eee;
+	float: left;
+	overflow: hidden;
+}
+#bd-sweet .luxury-cal .luxury-cal-slide{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-sweet .luxury-cal .luxury-cal-slide .luxury-slide-scroll{
+	width: 390px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+#bd-sweet .luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext{
+	overflow: visible;
+	position: absolute;
+	width: 780px;
+	left: 0px;
+}
+.luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext a{
+	display: block;
+	float: left;
+	position: relative;
+	z-index: 5;
+}
+.luxury-cal .luxury-cal-slide .luxury-slide-scroll .scroll-prenext a p{
+	display: none;
+	width: 390px;
+	height: 370px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: #ccc;
+	opacity: 0.2;
+	filter: alpha(opacity = 20);
+}
+
+#bd-sweet .luxury-banner .luxury-banner-main .luxury-banner-div .border-animation .img-wrap a{
+	width: 270px;
+	height: 180px;
+	display: block;
+}
+/**********************************bd-card*****************************/
+#bd-card{
+	height: 167px;
+	margin: 34px auto;
+	border: 1px solid #eee;
+	overflow: hidden;
+}
+#bd-card div{
+	float: left;
+	height: 165px;
+	cursor: pointer;
+	overflow: hidden;
+}
+#bd-card div a{
+	display: block;
+	width: 390px;
+	height: 165px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 5;
+}
+#bd-card div a p{
+	display: none;
+	width: 390px;
+	height: 165px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: #ccc;
+	opacity: 0.2;
+	filter: alpha(opacity = 20);
+}
+#bd-card div.card-one{
+	width: 395px;
+}
+#bd-card div.card-two{
+	width: 396px;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+#bd-card div.card-three{
+	width: 395px;
+}
+.float-nav{
+	width: 50px;
+	height: 545px;
+	position: fixed;
+	left: 50%;
+	bottom: 20px;
+	margin-left: 600px;
+	display: none;
+}
+.float-nav a{
+	display: block;
+	position: relative;
+	z-index: 10;
+	width: 30px;
+	height: 30px;
+	margin-bottom: 5px;
+	padding: 5px 10px 15px;
+	line-height: 20px;
+	background: url(../img/imgshouye/floor-nav.png) no-repeat;
+	
+}
+.float-nav a .y-first{
+	display: none;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	width: 30px;
+	height: 30px;
+	margin-bottom: 5px;
+	padding: 5px 10px 15px;
+	line-height: 20px;
+	background: #E5004F;
+	color: #fff;
+}
+.float-nav a.y-floor-mp{
+	background-position:0 0;
+}
+.float-nav a.y-floor-wz{
+	background-position:0 -55px;
+}
+.float-nav a.y-floor-nz{
+	background-position:0 -110px;
+}
+.float-nav a.y-floor-xx{
+	background-position:0 -165px;
+}
+.float-nav a.y-floor-xb{
+	background-position:0 -220px;
+}
+.float-nav a.y-floor-hf{
+	background-position:0 -275px;
+}
+.float-nav a.y-floor-hw{
+	background-position:0 -330px;
+}
+.float-nav a.y-floor-ps{
+	background-position:0 -385px;
+}
+.float-nav a.y-floor-ty{
+	background-position:0 -440px;
+}
+.float-nav a.y-floor-top{
+	background-position:0 -495px;
+}
+/**********************************footer*****************************/

@@ -1,0 +1,274 @@
+/*******************************top**************************/
+#top{
+	width: 100%;
+	min-width: 1190px;
+	padding: 20px 0;
+}
+#top .topmain,#top .topmain .topcenter{
+	height: 76px;
+}
+#top .topmain .topcenter .slogin1{
+    float: left;
+    width: 215px;
+    height: 76px;
+    margin-right: 5px;
+    background: #eee url(../img/imgshouye/header-20160223.gif) 0 0 no-repeat;
+}
+#top .topmain .topcenter .slogin2{
+	float: left;
+    width: 124px;
+    height: 24px;
+    margin-top: 52px;
+    background: url(../img/imgshouye/header-login.png) 0 -24px no-repeat;
+} 
+
+#top .topmain .topcenter .top-right{
+	float: right;
+	height: 76px;
+}
+#top .topmain .topcenter .top-right span{
+	float: left;
+	margin-top: 35px;
+	font-family: "\5fae\8f6f\96c5\9ed1";
+}
+#top .topmain .topcenter .top-right span strong{
+	display: block;
+	font-size:16px;
+	color: #000;
+	font-weight: 400;
+}
+#top .topmain .topcenter .top-right span b{
+	font-weight: 400;
+	color: #888;
+}
+#top .topmain .topcenter .top-right span.after-sale{
+	width: 145px;
+	height: 41px;
+	padding: 0 0 0 45px;
+	background: url(../img/imgshouye/footer-01.png) 0 -80px no-repeat;
+}
+#top .topmain .topcenter .top-right span strong i{
+	font-style: normal;
+	color: #e5004f;
+}
+#top .topmain .topcenter .top-right span.quality{
+	width: 130px;
+	height: 41px;
+	padding: 0 0 0 48px;
+	background: url(../img/imgshouye/footer-01.png) 0 -154px no-repeat;
+}
+#top .topmain .topcenter .top-right span.convenience{
+	width: 113px;
+	height: 41px;
+	padding: 0 0 0 60px;
+	background: url(../img/imgshouye/footer-01.png) 0 -225px no-repeat;
+}
+/***********************************middle********************************/
+#middle{
+	width: 100%;
+	background: #f1f1f1;
+}
+#middle .m-login{
+	width: 1190px;
+	padding: 60px 0 50px;
+	margin: 0 auto;
+}
+#middle .m-login .m-login-img{
+	float: left;
+    width: 780px;
+    height: 460px;
+    overflow: hidden;
+}
+#middle .m-login .m-login-img a{
+	vertical-align: top;
+}
+#middle .m-login .m-login-img a img{
+	width: 100%;
+	height: 100%;
+}
+#middle .m-login .m-login-right{
+	float: right;
+    width: 320px;
+    min-height: 460px;
+    _height: 460px;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #fff;
+}
+#middle .m-login .m-login-right .m-right-top{
+	height: 45px;
+    border-bottom: 1px solid #cdcdcd;
+}
+#middle .m-login .m-login-right .m-right-top span{
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "\5fae\8f6f\96c5\9ed1";
+    font-size: 16px;
+    background-color: #e5004f;
+    color: #fff; 
+}
+#middle .m-login .m-login-right .m-right-form{
+	width: 280px;
+    padding: 0 20px;
+}
+#middle .m-login .m-login-right .m-right-form .form-jump{
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+}
+#middle .m-login .m-login-right .m-right-form .form-jump a{
+	color: #E5004F;
+}
+#middle .m-login .m-login-right .m-right-form .client-list{
+	min-height: 66px;
+	position: relative;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .stress{
+	border: 1px solid #E5004F;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .nameTxt{ width: 268px;}
+#middle .m-login .m-login-right .m-right-form .client-list .nameWord{width: 268px;}
+#middle .m-login .m-login-right .m-right-form .client-list .passTxt{width: 268px;}
+#middle .m-login .m-login-right .m-right-form .client-list .graphTxt{width: 95px;margin-right: 10px;}
+#middle .m-login .m-login-right .m-right-form .client-list .otherTxt{width: 95px;margin-right: 10px;}
+#middle .m-login .m-login-right .m-right-form .client-list .nameTxt,
+#middle .m-login .m-login-right .m-right-form .client-list .nameWord,
+#middle .m-login .m-login-right .m-right-form .client-list .passTxt,
+#middle .m-login .m-login-right .m-right-form .client-list .graphTxt,
+#middle .m-login .m-login-right .m-right-form .client-list .otherTxt{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    color: #333;
+    outline: none;
+    border-radius: 2px;
+    font-size: 14px;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .tips{
+    clear: both;
+    height: 24px;
+    line-height: 22px;
+    color: #999;
+    overflow: hidden;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .tips p{
+	float: left;
+    color: #666;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .tips p.wrong{
+	color: #E5004F;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .tips em{
+	float: left;
+    margin-right: 5px;
+    color: #666;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .tips span{
+	float: left;
+    padding-top:4px ;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .tips span i{
+	float: left;
+    width: 30px;
+    height: 16px;
+    line-height: 16px;
+    margin-right: 1px;
+    font-style: normal;
+    text-align: center;
+    background-color: #ccc;
+    color: #fff;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .tips span i.cursor{
+	background-color: #E5004F;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .delay{
+	float: left;
+    height: 32px;
+    margin-top: 5px;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .delay #graphPic{
+	display: inline-block;
+	width: 78px;
+    height: 30px;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .delay span{
+	display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    vertical-align: top;
+    color: #999;
+    cursor: pointer;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .hidden{
+	visibility: visible;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .hidden{
+	display: none;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .phone{
+	float: left;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .retrivecode{
+	display: none;
+    float: left;
+    width: 115px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #777;
+    text-align: center;
+    vertical-align: top;
+    background-color: #9c9c9c;
+    border-radius: 2px;
+    outline: none;
+}
+#middle .m-login .m-login-right .m-right-form .client-list .haicode{
+	display: block;
+	margin-right: 10px;
+}
+#middle .m-login .m-login-right .m-right-form .client-agree{
+	height: 35px;
+}
+#middle .m-login .m-login-right .m-right-form .client-agree input{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+#middle .m-login .m-login-right .m-right-form .client-agree a{
+	color: #E5004F;
+}
+#middle .m-login .m-login-right .m-right-form .client-regis{
+	padding: 0 0 20px;
+}
+#middle .m-login .m-login-right .m-right-form .client-regis .client-submit{
+	border: none;
+    font-family: "\5fae\8f6f\96c5\9ed1";
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 2px;
+    color: #fff;
+    outline: none;
+    vertical-align: top;
+    background-color: #e5004f;
+}
