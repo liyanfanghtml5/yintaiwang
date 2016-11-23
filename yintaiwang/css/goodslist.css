@@ -1,0 +1,855 @@
+#bd{
+	width: 100%;
+	overflow: hidden;
+	background: #f4f4f4;
+}
+#prolistcon{
+	width: 100%;
+	overflow: hidden;
+}
+.p-crumbs{
+	overflow: hidden;
+}
+.t-crumbs {
+    width: 100%;
+    height: 40px;
+    padding: 15px 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    _table-layout: fixed;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.t-crumbs td {
+    padding: 5px 15px;
+    width: 40px;
+    text-align: center;
+    font: 12px/1.5 "微软雅黑";
+}
+.t-crumbs td.first .xuan {
+    white-space: nowrap;
+    min-height: 7px;
+    padding: 8px;
+    position: relative;
+    z-index: 3;
+}
+.postip {
+    position: absolute;
+    width: 170px;
+    background: #535353;
+    top: 30px;
+    line-height: 25px;
+    padding: 10px;
+    left: 0;
+    box-shadow: 2px 2px 2px #535353;
+    display: none;
+    z-index: 9999;
+}
+.t-crumbs td a {
+    white-space: nowrap;
+    zoom: 1;
+}
+.postip a {
+    margin: 0 5px;
+    float: left;
+    white-space: nowrap;
+}
+.tipson a, .postip a {
+    color: #fff;
+}
+.t-crumbs td.next .xuan b, .t-crumbs td.first .xuan b {
+    width: 8px;
+    height: 5px;
+    display: inline-block;
+    background: url(../img/goodslist/xuan-bg.jpg) no-repeat;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.t-crumbs td.next .tipson b, .t-crumbs td.first .tipson b{
+	background-position: bottom;
+}
+.t-crumbs td.next {
+    padding: 0 15px;
+    width: auto;
+    background: url(../img/goodslist/shu-line.jpg) no-repeat left 18px;
+}
+.t-crumbs td.kinds {
+    width: 1010px;
+}
+.t-crumbs .p-filterDivide {
+    width: auto;
+    padding: 5px 0 0 0;
+}
+.p-filterDivide {
+    width: 1110px;
+    padding-top: 12px;
+}
+.p-filterDivide, .p-filterDivide dl dd, .p-filterDivide dl dd ul li {
+    float: left;
+    display: inline;
+    margin-right: 18px;
+}
+.xuan .p-filterDivide dl dd ul {
+    overflow: visible;
+}
+.p-filterDivide ul {
+    height: 30px;
+    overflow: hidden;
+}
+.t-crumbs .p-filterDivide dl dd ul li {
+    padding-bottom: 5px;
+}
+
+.p-filterChoose dl dd ul li {
+    height: 20px;
+    line-height: 20px;
+    margin-right: 0;
+}
+.p-filterDivide dl dd ul li {
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+.t-crumbs .p-filterDivide li strong {
+    color: #e4004f;
+}
+.t-crumbs td.last {
+    width: auto;
+    padding-left: 0;
+}
+.p-filterReset {
+    float: right;
+    margin-top: 6px;
+    color: #1e1e1e;
+    cursor: pointer;
+}
+.p-filterReset a, .p-filterReset a:hover {
+    padding-left: 20px;
+    background: url(../img/goodslist/cx.jpg) no-repeat left 2px;
+}
+/***********************************p-crumbs结束*************************/
+.p-filter{
+	border-top: 1px solid #000;
+    padding-bottom: 10px;
+}
+.p-filterMain {
+    background: #fff;
+    border-bottom: 2px solid #000;
+    padding-top: 5px;
+}
+.p-filterDiv {
+    padding-bottom: 2px;
+}
+form{
+	display: block;
+}
+.p-filterCommon {
+    position: relative;
+    padding: 0 30px;
+    border-bottom: solid 1px #e1e1e1;
+}
+.p-filterDivide {
+    width: 1110px;
+    padding-top: 12px;
+}
+.p-filterDivide dl dt {
+	float: left;
+    width: 70px;
+    color: #333;
+    font: 14px/1.5 "微软雅黑";
+}
+.p-filterDivide dl dd {
+	float: left;
+    width: 960px;
+}
+.p-filterDivide dl dd ul li input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.p-radio {
+    visibility: hidden;
+}
+label{
+	cursor: default;
+}
+.p-filterDivide dl dd ul li label span {
+    font-size: 10px;
+}
+.p-filterOperate {
+    position: absolute;
+    top: 15px;
+    right: 75px;
+    z-index: 3;
+    width: 45px;
+    height: 20px;
+}
+/***********************************分类结束*************************/
+.p-filterBrand {
+    position: relative;
+}
+.p-bSearch {
+    position: relative;
+    width: 200px;
+    padding-bottom: 10px;
+}
+.hidden {
+    display: none;
+}
+input, textarea, select, button, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.p-bSearch button {
+    position: absolute;
+    right: -4px;
+    _right: 2px;
+    top: 3px;
+    _top: 4px;
+    border: none;
+    background-position: left -471px;
+    width: 17px;
+    height: 14px;
+    text-indent: -9999em;
+    background: url(../img/goodslist/p-allIcon-20121107.gif) no-repeat;
+}
+.brand-key-list {
+    width: 1030px;
+    height: 30px;
+}
+.brand-key-box .brand-key-list .all-brand {
+    width: 69px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+}
+.brand-key-list .index-cur {
+    background-color: #fff;
+    color: #e3004f;
+    border: 1px solid #e3004f;
+}
+.brand-key-list .brand-key-item {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    display: inline;
+    float: left;
+    text-align: center;
+    cursor: default;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border: solid 1px #eaeaea;
+    margin-right: 3px;
+}
+.p-filterBrandMain dl dd ul li {
+    width: 175px;
+    padding-right: 17px;
+    overflow: hidden;
+    height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 0;
+}
+.p-letterSearch {
+    height: 54px;
+    overflow: hidden;
+}
+ul.J-brandSearchList {
+    height: auto;
+    overflow: visible;
+}
+.p-filterOperate {
+    position: absolute;
+    top: 15px;
+    right: 75px;
+    z-index: 1;
+    width: 45px;
+    height: 20px;
+}
+.p-filterOperate span a {
+    display: block;
+    padding-right: 17px;
+    height: 20px;
+    overflow: hidden;
+    font: 14px/14px "微软雅黑";
+    outline: none;
+    -moz-outline: none;
+}
+.p-filterShow a {
+	background: url(../img/goodslist/p-allIcon-20121107.gif) no-repeat;
+    background-position: 32px -161px;
+}
+.p-crumbsRE {
+	display: inline;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 1;
+    width: 45px;
+    height: 20px;
+}
+.p-crumbsRE span a.p-crumbsE {
+    background-position: -32px -2px;
+}
+/*.p-crumbsRE span a.p-crumbsR, .p-crumbsRE span a.p-crumbsE, .p-crumbsRE span a.p-crumbsR:hover, .p-crumbsRE span a.p-crumbsE:hover {
+    background: url(../img/goodslist/p-jia.jpg) no-repeat top right;
+    outline: none;
+    -moz-outline: none;
+}*/
+.p-crumbsRE span a.p-crumbsE{
+	background: url(../img/goodslist/p-jia.jpg) no-repeat top right;
+    outline: none;
+}
+.p-crumbsRE span a {
+    display: block;
+    font: 14px/1.0 "微软雅黑";
+    padding-right: 17px;
+    height: 13px;
+}
+/***********************************品牌结束*************************/
+
+/***********************************系色结束*************************/
+.p-filterDif {
+    border-bottom: none;
+}
+.p-filterPriceDo input.p-filterPriceLow, .p-filterPriceDo input.p-filterPriceHigh {
+    width: 45px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    color: #999;
+}
+em {
+    font-style: normal;
+    font-weight: 400;
+}
+.c-btn.c-btn-small, .c-lbtn.c-lbtn-small {
+    font-size: 12px;
+    line-height: 14px;
+    height: 22px;
+    padding: 0 12px 3px;
+    padding: 4px 15px\9;
+    _padding: 3px 14px 0;
+}
+.c-lbtn {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    color: #000;
+    background-position: 0 -301px;
+}
+.c-btn, .c-lbtn {
+    color: #eee;
+    border: 1px solid #333;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    overflow: visible;
+    outline: none;
+    padding: 6px 15px 8px;
+    padding: 8px 15px 6px\9;
+    height: 30px;
+}
+/***********************************价格结束*************************/
+.p-filterSC {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.hidden {
+    display: none;
+}
+.p-filterSC .c-btn, .p-filterSC .c-btn:hover {
+    margin-right: 5px;
+    background: #E5004F;
+    color: #fff;
+    font-family: "微软雅黑";
+    text-align: center;
+    border: #E5004F;
+    padding-top: 4px;
+    height: auto;
+}
+.c-lbtn {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    color: #000;
+    background-position: 0 -301px;
+}
+.p-filterSC a.c-lbtn {
+    zoom: 1;
+    _height: 18px;
+    background: #dadada;
+    color: #646464;
+}
+
+a.c-btn.c-btn-small, a.c-lbtn.c-lbtn-small, a.c-lbtn.c-lbtn-pink {
+    padding: 2px 15px 3px;
+    _padding: 4px 15px 2px;
+}
+/***********************************其他属性结束*************************/
+.p-listNavVH {
+	width: 1190px;
+	left: auto;
+    position: relative;
+    z-index: 0;
+    /*top: 6px;*/
+    height: 35px;
+    background: #5c5c5c;
+    font: 14px/1.0 "微软雅黑";
+    overflow: hidden;
+}
+.p-listNavVH .p-listNavLeft, .p-listNavVH .p-listNavRight {
+    display: none;
+}
+.p-listNavLeft {
+    left: -4px;
+    background-position: left -485px;
+}
+.p-listNavRight {
+    right: -4px;
+    background-position: -4px -485px;
+}
+.p-listNavLeft, .p-listNavRight {
+    display: block;
+    height: 35px;
+    width: 4px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+}
+.p-listNavLeft, .p-listNavRight {
+    background: url(../img/goodslist/p-allIcon-20121107.gif) no-repeat;
+}
+.p-listNav {
+    height: 35px;
+}
+.p-listNav {
+    position: absolute;
+}
+.p-listNav ul li {
+    float: left;
+    display: inline;
+    cursor: pointer;
+    border-right: solid 1px #747474;
+}
+.p-listNav ul li div {
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+    _float: left;
+}
+.p-listNavDefaultA div{
+    background: #e5004f;
+}
+.p-listNav ul li div a {
+    padding: 0 20px;
+    color: #fff;
+}
+.p-listNav ul li.p-listNavHaiTao div {
+    padding: 0;
+    float: left;
+    /* width: 105px; */
+    height: 35px;
+}
+.p-listNav ul li.p-listNavHaiTao div a {
+    /* display: block; */
+    height: 35px;
+    padding: 0 16px 0 30px;
+}
+.p-listNav ul li.p-listNavHaiTao div a i {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    background: #000 url(../img/goodslist/pro-list-change.jpg) 0 0 no-repeat;
+}
+.p-listNav ul li.p-listNavHaiTao div.miaohuo {
+    background: url(../img/goodslist/miao.jpg) 64px 5px no-repeat;
+    width: 105px;
+}
+.p-listNav ul li.p-listNavSearch {
+    height: 23px;
+    padding: 6px;
+    border-right: none;
+}
+
+.p-listNavSearchInput {
+    width: 160px;
+    height: 23px;
+    margin: 0;
+    line-height: 23px;
+    border: none;
+    display: block;
+    overflow: hidden;
+    padding-left: 5px;
+    color: #777777;
+    font-size: 12px;
+    float: left;
+}
+.p-listNavSearchBtn {
+    background-position: left top;
+}
+.p-listNavSearchBtn, .p-listNavSearchBtnC {
+    width: 38px;
+    height: 23px;
+    background: url(../img/goodslist/qr.jpg);
+    border: none;
+    text-indent: -9999em;
+    cursor: pointer;
+    float: left;
+}
+.p-listNavFBtn{
+	position: absolute;
+	top: 10px;
+	right: 130px;
+	color: #fff;
+}
+.p-listNavFBtn a.p-listNavFBtn-l, .p-listNavFBtn a.p-listNavFBtn-r, .p-listNavFBtn div {
+    float: left;
+    margin: 0 5px;
+}
+.p-listNavFBtn a.p-listNavFBtn-l {
+    background: url(../img/goodslist/f-left.jpg) left;
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+.p-listNavFBtn em {
+    color: #e5004f;
+}
+.p-listNavFBtn a.p-listNavFBtn-r {
+    background: url(../img/goodslist/f-right.jpg) left;
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+.p-listNavSearchByColor {
+    float: right;
+    height: 35px;
+    background: #fff;
+    width: 124px;
+    text-align: center;
+    font: 12px/1.0 "微软雅黑";
+}
+.p-listNavSearchByColor a {
+    line-height: 35px;
+    display: block;
+}
+/**************************************nav结束*************************/
+/**************************************商品列表开始*************************/
+.p-list {
+    margin-top: 18px;
+}
+.p-listinfo {
+	width: 228px;
+    border: 2px solid #f4f4f4;
+    float: left;
+    margin: 3px;
+    position: relative;
+    background: #fff;
+}
+.p-listinfoOn{
+	position: relative;
+	z-index: 1;
+	/*height: 524px;*/
+	border: 2px solid #E5004F;
+	box-shadow: 0 0 5px #ddd;
+}
+.p-listimgBig {
+    margin-bottom: 10px;
+    position: relative;
+}
+.p-listimgBig a {
+    height: 304px;
+}
+.p-listimgBig a img{
+	width: 228px;
+}
+.p-listimgBig a, .p-listimgSmall ul li a {
+    display: block;
+}
+.p-listimgSmall {
+    position: relative;
+    margin-bottom: 10px;
+    width: 228px;
+    height: 57px;
+}
+.p-listimgSmall ul li{display:none;}
+.p-listimgSmall ul li.show {
+	display:block ;
+    float: left;
+    margin: 0 4px;
+    display: inline!important;
+}
+.p-listimgSmall ul li a {
+    border: 1px solid #e2e2e2;
+    width: 40px;
+    height: 53px;
+    padding: 1px;
+    overflow: hidden;
+}
+.p-listimgSmall ul li a img{
+	width: 40px;
+}
+.p-listPrices {
+    padding-bottom: 5px;
+}
+.p-listTxt, .p-listPrices, .p-listaddInfo, .p-listaddCart {
+    padding: 0 12px;
+}
+strong b{
+	font-weight: bold;
+}
+.p-listPrices strong {
+    color: #e5004f;
+    padding-right: 20px;
+}
+em{font-style: normal; font-weight: 400;}
+.p-listPrices em {
+    color: #999;
+    background: url(../img/goodslist/sprit-hf_20140102.gif) -446px -479px no-repeat;
+}
+
+.p-listTxt {
+    margin-bottom: 5px;
+    height: 41px;
+    overflow: hidden;
+}
+.p-listTxt p {
+    line-height: 1.7em;
+}
+.p-listcustomIcon {
+    width: 52px;
+    height: 54px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    font: 14px/1.2 "微软雅黑";
+    color: #fff;
+}
+.p-listcustomIconBg{
+	display: block;
+	width: 21px;
+	height: 54px;
+	text-align: center;
+	line-height: 22px;
+	position: absolute;
+	left: 10px;
+	top: 0;
+	background: url(../img/goodslist/customicon.png) no-repeat 0 0;
+}
+
+.p-listaddCart{
+	position: relative;
+	height: 40px;
+	overflow: hidden;
+	margin-bottom:5px;
+}
+.p-listaddCart a{
+	position: absolute;
+	top:0;
+}
+.p-listaddCart a.addCart{
+	width: 132px;
+	height: 31px;
+	left: 20px;
+}
+.p-listaddCart a.addCollect{
+	display: block;
+	width: 30px;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 25px;
+	position: absolute;
+	right:22px;
+	top: 0px;
+}
+.p-listaddCart a.addCollect i{
+	position: absolute;
+	width: 25px;
+	height: 20px;
+	left:0px;
+	top: 6px;
+}
+.p-listaddInfo{
+    display: block;
+    position: relative;
+}
+.p-preferenInfo {
+    color: #e5004f;
+    padding-bottom: 8px;
+}
+.p-storeIntrance {
+    padding-bottom: 10px;
+    
+}
+.p-storeIntrance a {
+    display: block;
+    width: 184px;
+    height: 30px;
+    background: #2e2e2e;
+    color: #fff;
+    font: 14px/2.1 "微软雅黑";
+    text-align: center;
+    padding: 0 10px;
+    overflow: hidden;
+}
+/********************************页数开始**************************/
+.p-page {
+    padding: 20px 0;
+}
+.p-page .b-page {
+    text-align: right;
+}
+.b-page {
+    letter-spacing: -3px;
+}
+.b-page .b-p-first1, .b-page .b-p-up {
+    margin-right: 8px;
+    _margin-right: 2px;
+}
+.b-page .b-p-up, .b-page .b-p-down, .b-page .b-p-first1, .b-page .b-p-last {
+    width: 35px;
+    height: 35px;
+    background: url(../img/goodslist/b-page-bg.jpg) no-repeat;
+    box-shadow: 0 2px 2px #DDDDDD;
+    font: 14px/35px "微软雅黑";
+}
+.b-page .b-p-first1 {
+    background-position: 0 0;
+}
+.b-page .b-p-down{
+	background-position: 0 -35px;
+}
+.b-page a, .b-page span, .b-page em, .b-page input, .b-page button {
+    display:block;
+    float: left;
+    zoom: 1;
+    letter-spacing: 0;
+}
+.b-pageNumber {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    margin-right: 5px;
+    _margin-right: 1px;
+    text-align: center;
+    box-shadow: 0 2px 2px #DDDDDD;
+    font: 14px/35px "微软雅黑";
+}
+.b-pageNumActive {
+    color: #fff;
+    background: #e5004f;
+    box-shadow: 0 2px 2px #DDDDDD;
+    font: 14px/35px "微软雅黑";
+}
+
+.b-pageOmission {
+    margin:10px 9px 0 4px;
+}
+.p-pageAll {
+    margin: 0 7px 0 10px;
+    _margin: 0 2px 0 5px;
+}
+.b-page .pages{
+	width:94px;
+	height: 35px;
+	position: relative;
+}
+.b-page .pages i{
+	font-style: normal;
+	position: absolute;
+	top: 0;
+}
+.b-page .pages .i1{
+	left: 0;
+}
+.b-page .pages .i2{
+	right: 0;
+}
+.b-page em .pageinput {
+	position: absolute;
+	top: 0;
+	left: 31px;
+	width: 40px;
+    height: 33px;
+    border: 1px solid #fff;
+    margin: 0 2px;
+    line-height: 33px;
+    background: #fff;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.b-page em, .b-page .c-btn1, .b-page em .pageinput {
+    padding: 0 5px;
+    font: 14px/35px "微软雅黑";
+}
+.b-page .c-btn1 {
+    margin-left: 10px;
+    width: 80px;
+    height: 35px;
+    background: url(../img/goodslist/b-page-btn.jpg) no-repeat;
+    border: none;
+    text-indent: -9999em;
+    vertical-align: middle;
+    margin-top: -2px;
+    box-shadow: 0 2px 2px #DDDDDD;
+}
+.b-page:after {
+    display: block;
+    height: 0;
+    clear: both;
+    font-size: 0;
+    content: ".";
+    visibility: hidden;
+}
+
+#backtop{
+	display: none;
+	width: 32px;
+	height: 45px;
+	position: fixed;
+	left: 50%;
+	margin-left: 600px;
+	bottom: 100px;
+}
+.btn-top{
+	display: block;
+	width: 32px;
+	height: 45px;
+	background: url(../img/imgcart/shopping-title-20141118.png) no-repeat;
+	background-position: 0 -87px;
+}
+
+
+
+
+
+
+
+
+
+
+
